@@ -3,8 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Weather App</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="weather-container">
+      <h1>Weather App</h1>
+      <input type="text" id="country-input" placeholder="Enter country" />
+      <button id="search-btn" onclick="getWeather()">Search</button>
+      <div id="weather-info"></div>
+      <img
+        id="weather-icon"
+        src="Image/icon-1.png"
+        height="100"
+        width="150"
+        alt="Weather Icon"
+      />
+    </div>
+
+    <script src="weather.js"></script>
+  </body>
 </html>
