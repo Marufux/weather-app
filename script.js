@@ -30,13 +30,13 @@ function displayWeather(data) {
 function getWeatherImage(weather) {
   switch (weather) {
     case "Rain":
-      return "rain-image-url"; // Replace with the actual URL of your rain image
+      return "https://cdn-icons-png.flaticon.com/512/116/116251.png";
     case "Clouds":
-      return "cloud-image-url"; // Replace with the actual URL of your cloud image
+      return "https://cdn.iconscout.com/icon/free/png-256/free-clouds-192-1113583.png";
     case "Clear":
-      return "sunny-image-url"; // Replace with the actual URL of your sunny image
+      return "https://cdn-icons-png.flaticon.com/512/3222/3222800.png";
     case "Thunderstorm":
-      return "storm-image-url"; // Replace with the actual URL of your storm image
+      return "https://cdn-icons-png.flaticon.com/512/3104/3104612.png";
     default:
       return "";
   }
